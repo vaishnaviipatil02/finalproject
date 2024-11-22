@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        body{
+            height: 1000vh;
+            width: 100vw;
+            border: 2px solid black;
+        }
+        header{
+            height: 12vh;
+            width: 100vw;
+            /* border: 2px solid red; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(245, 221, 225);
+            position: fixed;
+            
+        }
+        section{
+            height: 60vh;
+            width: 100%;
+            /* border: 2px solid yellow; */
+            display: flex;
+            justify-content: space-evenly;
+          
+            align-items: center;
+            gap: 20px;
+            background-color: pink;
+
+        } 
+        nav{
+            height: 45%;
+            width:95% ;
+            /* border: 2px solid green; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            position: fixed;
+            
+            
+           
+        }
+        a{
+            text-decoration: none;
+            font-size: 20px;
+            color: black;
+            
+        }
+        nav .c {
+            height: 28px;
+            width: 250px;
+            border: 2px solid black;
+            border-radius: 10px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            }        
+            nav .c input{
+                height: 23px;
+                width: 200px;
+                border: none;
+                border-radius: 10px;
+                background-color: transparent;
+        }
+        article{
+            height:400px;
+            width: 100%;
+            /* border: 2px solid blue; */
+            padding-top: 100px;
+            display: flex;
+            
+            justify-content: space-evenly;
+            align-items: center;
+            background-image: linear-gradient(to right,skyblue,rgb(224, 84, 224));
+            background-size: cover;
+            
+
+        }
+        
+            
+
+        
+        div{
+           
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .gol{
+            height: 200px;
+            width: 200px;
+            border: 2px solid green;
+            border-radius: 50%;
+           
+        }
+        section div{
+            height: 200px;
+            width: 300px;
+            /* border: 2px solid purple; */
+        }
+        .se{
+            height: 70vh;
+            width: 100%;
+            /* border: 2px solid yellow; */
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-direction: column;
+            gap: 20px;
+            
+             background-color: aliceblue;
+        }
+
+        .se .box{
+            height: 80%;
+            width: 95%;
+            /* border: 2px solid red; */
+            /* overflow:auto; */
+            transition-duration: 2s;
+            animation-iteration-count: infinite;
+            gap: 20px;
+
+            
+            
+
+        }
+        .gol img{
+            height: 200px;
+            width: 200px;
+            background-size: cover;
+            border-radius: 50%;
+
+        }
+        .sale{
+            height: 300px;
+            width: 200px;
+            /* border: 2px solid green; */
+            background-size: cover;
+        
+        }
+        .sale img {
+            height: 300px;
+            width: 200px;
+            
+            background-size: cover;
+        }
+        footer{
+            height: 200px;
+            width: 100%;
+            border: 2px solid blue;
+            background-color: brown;
+        }
+        .se h1{
+            font-size: 50px;
+            color: red;
+            text-decoration: underline;
+        }
+        .se:hover div{
+            transform: translate(500px);
+
+        }
+        .sale{
+            transition-timing-function: linear;
+        }
+        .thandi{
+            height: 400px;
+            width: 100%;
+            display: flex;
+            border: 2px solid green;
+            justify-content: space-evenly;
+            align-items: center;
+            background-color:blueviolet ;
+            flex-direction: column;
+            
+        }
+       
+        .thandi .d{
+           height: 85%;
+           width: 90%; 
+           /* border: 2px solid orange; */
+           display: flex;
+           justify-content: space-evenly;
+           align-items: center;
+           
+        }
+        .thandi .d .thamdi{
+            height: 250px;
+            width: 350px;
+            /* border: 2px solid red; */
+            
+        }
+        .thamdi img{
+            height: 200px;
+            width: 250px;
+            background-size: cover;
+        }
+    </style>    
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="" class="a">logo</a>
+            <a href="" class="a">men</a>
+            <a href="" class="a">women</a>
+            <a href="" class="a">kids</a>
+            <a href="" class="a">beauty</a>
+            <a href="" class="a">electronic</a>
+            <a href="" class="a">books</a>
+            <a href="" class="a">footware</a>
+            <a href="" class="a">home & kitchan</a>
+            <div class="c">
+                <input type="search for anything" placeholder="search for anything">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-solid fa-gift"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+        </nav>
+    </header>
+    <article >
+       
+        <div class="gol">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnJ_BFUni34eW24ULKjk6LddwpvvzZhO1qaQ&s" alt="">
+        </div>
+        <div class="gol">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCqkB3QStJSKLvxhON0pSQsaOnxINTbpK_5Q&s" alt="">
+        </div>
+        <div class="gol">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm2fw5BHduQkWIfgQh-P8S2Dv1h4IbGMpnWA&s" alt="">
+        </div>
+        <div class="gol">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXUVyErN0K4wF0xkCWSHc62-nkW1zApS3ytg&s" alt="">
+        </div>
+        <div class="gol">
+            <img src="https://images.meesho.com/images/products/407517444/sqiek_512.webp" alt="">
+        </div>
+       
+    </article>
+    <section class="se">
+        <h1>Shadi mubark Sale</h1>
+        <div class="box">
+
+            <div class="sale">
+                <img src="https://silvermerc.com/cdn/shop/files/DSC_9422.jpg?v=1692347873" alt="">
+            </div>
+            <div class="sale">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2mFYdkKbECG0zhY_M_9jp3NtCM4RL1klf0A&s" alt="">
+            </div>
+            <div class="sale">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV-myRcrjZneNRHkcRpJl_yW4aOc7eCnj24A&s" alt="">
+            </div>
+            <div class="sale">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQi7uFtlxRDl4bY2dnmYT_H0u8lR_oTkwRu8w&s" alt="">
+            </div>
+            <div class="sale"> 
+                <img src="https://5.imimg.com/data5/IU/NA/CF/SELLER-58135491/whatsapp-image-2019-09-05-at-14-45-12-4--500x500.jpeg" alt="">
+            </div>
+            <div class="sale">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpZUuSVnFySYj-9eVCjVPeKqVwB0fi2ZEIug&s" alt="">
+            </div>
+            <div class="sale">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVG6xUsRU68AiqFdAae0JivU4BQUGVYFTLhQ&s" alt="">
+            </div>
+            <div class="sale">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRObSCN9AjIwZFQ-pMndKLE9enmhVHaiNX8hg&s" alt="">
+            </div>
+
+        </div>
+    </section>
+    <section  class="thandi">
+        <h1>New season New Wordrobe</h1>
+       <div class="d">
+        
+        <div class="thamdi">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt0JYd3vUBU_2x903laztf1vmjn_Kkw9DwVg&s" alt="">
+           </div>
+           <div class="thamdi">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzPxTRdoof7vNO2htdIffYrhDTFWOuaDBzzQ&s" alt="">
+           </div>
+           <div class="thamdi">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzfdIyj9Cu7ShmV_WbMI0xrhr2wO9e8j8Q1g&s" alt="">
+           </div>
+           <div class="thamdi">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXsqiupiMvAIv10qfl2wZWulaWOf8kI8_ckQ&s" alt="">
+           </div>
+        
+           
+       </div>
+    </section>
+    <footer>
+
+    </footer>
+
+    
+</body>
+</html>
